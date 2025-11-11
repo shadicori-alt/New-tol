@@ -10,7 +10,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'POST') {
     const { entry } = req.body;
-    // معالجة الرسائل هنا
+    // معالجة الرسائل والتعليقات هنا
     res.status(200).send('OK');
   }
 }
